@@ -12,10 +12,3 @@ CREATE TABLE users (
 INSERT INTO users (username, email) 
 VALUES ('john doe', 'john@example.com');
 
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Shofikul2024/Mysql-Satt-Academy.git
-git push -u origin main
