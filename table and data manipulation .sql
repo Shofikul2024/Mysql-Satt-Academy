@@ -12,3 +12,4 @@ CREATE TABLE users (
 INSERT INTO users (username, email) 
 VALUES ('john doe', 'john@example.com');
 
+ Variable & Simple Math Functions SQL
