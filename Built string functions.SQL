@@ -43,9 +43,33 @@ SELECT ASCII('A') AS ascii_value;
 SELECT CHAR(65) AS character_value
 select "hello world.shofikul islam" as message;
 
+
+
+
+-- add two numbers using variables
 set @num1=20;
 set @num2=30;
 set @result=@num1+@num2;
 select @result as sum_result;
 
-elect 
+
+
+
+
+-- add two numbers using string functions
+  
+
+
+  set @str1='shofikul';
+  set @str2='islam';
+    set @full_name=CONCAT(@str1," " ,@str2);
+    select @full_name as full_name_result;    
+
+
+    
+
+
+
+
+
+    
