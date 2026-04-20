@@ -2,6 +2,8 @@ use shofikulfirstdb;
 -- 02 Built-in SQL string functions
 -- CHAR_LENGTH()/LENGTH()
 SELECT CHAR_LENGTH('Hello, SQL!') AS char_length;
+select length('shofikul islalm is a student') as length;
+
 SELECT LENGTH('Hello, SQL!') AS length;
 -- LOWER()
 SELECT LOWER('HELLO, SQL!') AS lower_case;
@@ -39,3 +41,11 @@ SELECT LPAD('123', 5, '0') AS left_padded;
 SELECT ASCII('A') AS ascii_value;
 -- CHAR()
 SELECT CHAR(65) AS character_value
+select "hello world.shofikul islam" as message;
+
+set @num1=20;
+set @num2=30;
+set @result=@num1+@num2;
+select @result as sum_result;
+
+elect 
